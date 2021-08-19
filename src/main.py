@@ -6,6 +6,7 @@ import torchvision
 import torchvision.transforms as transforms
 from tqdm import tqdm
 import os
+import argparse  
 from torch.utils.tensorboard import SummaryWriter
 from utils import seed_everything
 from resnet import ResNet18
@@ -17,7 +18,7 @@ def train(model, train_loader , val_loader, args,criterion,optimizer,mixup=False
        args:  epochs , model_path='model.ckpt' ,load_model=False, min_val_acc_to_save=88.0
 
     """ 
-    writer=SummaryWriter(os.path.jooin(args.save_path,'tensorboard',args.exp_name))
+    writer=SummaryWriter(os.path.join(args.save_path,'tensorboard',args.exp_name))
 
     device=torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     best_val_acc=0

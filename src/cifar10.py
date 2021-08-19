@@ -1,6 +1,7 @@
 
 import torchvision
 import torchvision.transforms as transforms
+import torch
 
 def cifar10_dataset(batch_size):
 
