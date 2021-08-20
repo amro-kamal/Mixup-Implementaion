@@ -3,6 +3,7 @@ Presentation Link https://docs.google.com/presentation/d/1zCMNCJSdh6TlfQn_YJezP7
 Implementation for ["mixup: BEYOND EMPIRICAL RISK MINIMIZATION"](https://arxiv.org/abs/1710.09412)
 
 ### To train ResNet18 with mixup on CIFAR10:
+The resnnet18 architecture is from th official implementaion
 ```!
 python Mixup-Implementaion/src/main.py --epochs 2 --batch-size 128 --learning-rate 0.1 --save-path ""      #path to save the model and tensorboard logs 
 ```
