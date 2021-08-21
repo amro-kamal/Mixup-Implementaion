@@ -1,4 +1,3 @@
-Presentation Link https://docs.google.com/presentation/d/1zCMNCJSdh6TlfQn_YJezP72SCqWgDjjT3vcuYnfhExs/edit?usp=sharing
 # Mixup-Implementaion
 Implementation for ["mixup: BEYOND EMPIRICAL RISK MINIMIZATION"](https://arxiv.org/abs/1710.09412)
 
