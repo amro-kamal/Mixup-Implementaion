@@ -11,7 +11,7 @@ The resnnet18 architecture is the cifar10 variant of resnet18. I borrowed the ar
 | Model            | epochs        | cifar10 val acc|
 | -------------    | ------------- |  ------------- |
 | Resnet18         |  200          |      94.61     |
-| Resnet18_mixup   |  200          |     95.99      |
+| Resnet18 w/ mixup   |  200          |     95.99      |
 
 
 <img width="600" alt="mixup graph" src="https://user-images.githubusercontent.com/37993690/130130616-c8de87c0-3dd4-418d-8f59-fb70b1d3eabc.png">
